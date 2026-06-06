@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo - Velocity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid justify-content-lg-center">
+                <a class="navbar-brand" href="index.html">Velocity Run</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <div class="mb-4">
+            <h1 class="fw-bold mb-1">Catálogo</h1>
+            <p class="text-muted">Encuentra tu zapatilla ideal por categoría.</p>
+        </div>
+
+        <div class="row">
+            <ul class="nav nav-tabs mb-4" id="catalogoTabs" role="tablist">
+                <div class="col">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#running" type="button" role="tab">
+                            Running <span class="badge bg-dark ms-1 d-none d-sm-inline">10</span>
+                        </button>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#entrenamiento" type="button" role="tab">
+                            Entrenamiento <span class="badge bg-dark ms-1 d-none d-sm-inline">10</span>
+                        </button>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#lifestyle" type="button" role="tab">
+                            Lifestyle <span class="badge bg-dark ms-1 d-none d-sm-inline">10</span>
+                        </button>
+                    </li>
+                </div>
+                <div class="col">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#especial" type="button" role="tab">
+                            Edición Especial <span class="badge bg-warning text-dark ms-1 d-none d-sm-inline">10</span>
+                        </button>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="catalogoTabsContent">
+
+            <!-- ==================== RUNNING ==================== -->
+            <div class="tab-pane fade show active" id="running" role="tabpanel">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=11" class="card-img-top" alt="Velocity Sprint Pro">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">Velocity Sprint Pro</p>
+                                <p class="text-muted small mb-2">L. 1,499</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=12" class="card-img-top" alt="AeroGlide 2.0">
+                            <div class="card-body p-2">
+                                <span class="badge bg-secondary mb-1">Más vendido</span>
+                                <p class="fw-semibold small mb-0">AeroGlide 2.0</p>
+                                <p class="text-muted small mb-2">L. 1,299</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=13" class="card-img-top" alt="PaceMax Elite">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">PaceMax Elite</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,600</s>L. 1,200</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=14" class="card-img-top" alt="SwiftStep X">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">SwiftStep X</p>
+                                <p class="text-muted small mb-2">L. 1,350</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=15" class="card-img-top" alt="TrailBlaze R1">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">TrailBlaze R1</p>
+                                <p class="text-muted small mb-2">L. 1,550</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=16" class="card-img-top" alt="RoadKing V3">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">RoadKing V3</p>
+                                <p class="text-muted small mb-2">L. 1,100</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=17" class="card-img-top" alt="CloudRun Zero">
+                            <div class="card-body p-2">
+                                <span class="badge bg-secondary mb-1">Más vendido</span>
+                                <p class="fw-semibold small mb-0">CloudRun Zero</p>
+                                <p class="text-muted small mb-2">L. 1,750</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=18" class="card-img-top" alt="DashFlex Ultra">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">DashFlex Ultra</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,400</s>L. 1,050</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=19" class="card-img-top" alt="SprintCore 5">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">SprintCore 5</p>
+                                <p class="text-muted small mb-2">L. 1,199</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=20" class="card-img-top" alt="FlyStep Runner">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">FlyStep Runner</p>
+                                <p class="text-muted small mb-2">L. 1,399</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ==================== ENTRENAMIENTO ==================== -->
+            <div class="tab-pane fade" id="entrenamiento" role="tabpanel">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=21" class="card-img-top" alt="PowerLift Pro">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">PowerLift Pro</p>
+                                <p class="text-muted small mb-2">L. 1,299</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=22" class="card-img-top" alt="GymFlex 360">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">GymFlex 360</p>
+                                <p class="text-muted small mb-2">L. 1,150</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=23" class="card-img-top" alt="CrossEdge V2">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">CrossEdge V2</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,350</s>L. 999</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=24" class="card-img-top" alt="StrongBase X">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">StrongBase X</p>
+                                <p class="text-muted small mb-2">L. 1,099</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=25" class="card-img-top" alt="AgileCore 3">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">AgileCore 3</p>
+                                <p class="text-muted small mb-2">L. 1,249</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=26" class="card-img-top" alt="FitForce Max">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">FitForce Max</p>
+                                <p class="text-muted small mb-2">L. 1,399</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=27" class="card-img-top" alt="RepZone Elite">
+                            <div class="card-body p-2">
+                                <span class="badge bg-secondary mb-1">Más vendido</span>
+                                <p class="fw-semibold small mb-0">RepZone Elite</p>
+                                <p class="text-muted small mb-2">L. 1,199</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=28" class="card-img-top" alt="TurboGrip 7">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">TurboGrip 7</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,500</s>L. 1,150</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=29" class="card-img-top" alt="HardWork R3">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">HardWork R3</p>
+                                <p class="text-muted small mb-2">L. 1,050</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=30" class="card-img-top" alt="IronStep Plus">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">IronStep Plus</p>
+                                <p class="text-muted small mb-2">L. 1,350</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ==================== LIFESTYLE ==================== -->
+            <div class="tab-pane fade" id="lifestyle" role="tabpanel">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=31" class="card-img-top" alt="StreetEase Classic">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">StreetEase Classic</p>
+                                <p class="text-muted small mb-2">L. 999</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=32" class="card-img-top" alt="UrbanFlow Low">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">UrbanFlow Low</p>
+                                <p class="text-muted small mb-2">L. 1,050</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=33" class="card-img-top" alt="CasualStep Uno">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">CasualStep Uno</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,100</s>L. 849</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=34" class="card-img-top" alt="DailyWear 4">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">DailyWear 4</p>
+                                <p class="text-muted small mb-2">L. 950</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=35" class="card-img-top" alt="CityRoam X1">
+                            <div class="card-body p-2">
+                                <span class="badge bg-secondary mb-1">Más vendido</span>
+                                <p class="fw-semibold small mb-0">CityRoam X1</p>
+                                <p class="text-muted small mb-2">L. 1,150</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=36" class="card-img-top" alt="NeoComfort Slide">
+                            <div class="card-body p-2">
+                                <span class="badge bg-success mb-1">Nuevo</span>
+                                <p class="fw-semibold small mb-0">NeoComfort Slide</p>
+                                <p class="text-muted small mb-2">L. 899</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=37" class="card-img-top" alt="SoftWalk Air">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">SoftWalk Air</p>
+                                <p class="text-muted small mb-2">L. 1,000</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=38" class="card-img-top" alt="VibeCourt 2">
+                            <div class="card-body p-2">
+                                <span class="badge bg-danger mb-1">Descuento</span>
+                                <p class="fw-semibold small mb-0">VibeCourt 2</p>
+                                <p class="text-muted small mb-2"><s class="me-1">L. 1,200</s>L. 950</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=39" class="card-img-top" alt="LoungeRun Easy">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">LoungeRun Easy</p>
+                                <p class="text-muted small mb-2">L. 875</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=40" class="card-img-top" alt="StyleStep Pro">
+                            <div class="card-body p-2">
+                                <p class="fw-semibold small mb-0">StyleStep Pro</p>
+                                <p class="text-muted small mb-2">L. 1,099</p>
+                                <a href="#" class="btn btn-dark btn-sm w-100">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ==================== EDICIÓN ESPECIAL ==================== -->
+            <div class="tab-pane fade" id="especial" role="tabpanel">
+                <div class="alert alert-warning d-flex align-items-center gap-2 mb-4 py-2" role="alert">
+                    <strong>Edición limitada.</strong>&nbsp;Unidades disponibles hasta agotar existencias.
+                </div>
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=41" class="card-img-top" alt="Velocity X-Pro">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Velocity X-Pro</p>
+                                <p class="text-muted small mb-2">L. 1,999</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=42" class="card-img-top" alt="Neon Pulse SE">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Neon Pulse SE</p>
+                                <p class="text-muted small mb-2">L. 2,199</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=43" class="card-img-top" alt="Arctic White SE">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Arctic White SE</p>
+                                <p class="text-muted small mb-2">L. 2,350</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=44" class="card-img-top" alt="Carbon Black X">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Carbon Black X</p>
+                                <p class="text-muted small mb-2">L. 2,699</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=45" class="card-img-top" alt="Velocity x Studio">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Collab</span>
+                                <p class="fw-semibold small mb-0">Velocity x Studio</p>
+                                <p class="text-muted small mb-2">L. 3,199</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=46" class="card-img-top" alt="Midnight Run SE">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Midnight Run SE</p>
+                                <p class="text-muted small mb-2">L. 2,499</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=47" class="card-img-top" alt="Sunset Coral SE">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">Sunset Coral SE</p>
+                                <p class="text-muted small mb-2">L. 2,299</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=48" class="card-img-top" alt="Heritage 1994">
+                            <div class="card-body p-2">
+                                <span class="badge bg-dark mb-1">Retro</span>
+                                <p class="fw-semibold small mb-0">Heritage 1994</p>
+                                <p class="text-muted small mb-2">L. 1,999</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=49" class="card-img-top" alt="PrismaRun 7">
+                            <div class="card-body p-2">
+                                <span class="badge bg-warning text-dark mb-1">Limitado</span>
+                                <p class="fw-semibold small mb-0">PrismaRun 7</p>
+                                <p class="text-muted small mb-2">L. 2,799</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 product-card border-warning border-2 shadow-sm">
+                            <img src="https://picsum.photos/300/300?random=50" class="card-img-top" alt="Velocity Anniversary">
+                            <div class="card-body p-2">
+                                <span class="badge bg-dark mb-1">Aniversario</span>
+                                <p class="fw-semibold small mb-0">Velocity Anniversary</p>
+                                <p class="text-muted small mb-2">L. 3,499</p>
+                                <a href="#" class="btn btn-warning btn-sm w-100 text-dark">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="py-5 bg-light border-top">
+        <div class="container">
+            <div class="bg-dark text-white rounded-3 p-4 mb-5">
+                <strong class="d-block fs-5">Únete a los más de 10,000 corredores que confían en Velocity.</strong>
+                <span class="text-white-50 small">La comunidad runner que sigue creciendo cada día.</span>
+            </div>
+            <div class="row gy-4">
+                <div class="col-12 col-md-5">
+                    <h6 class="text-uppercase text-muted small fw-semibold mb-3">Síguenos</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="btn btn-outline-secondary">Instagram</a>
+                        <a href="#" class="btn btn-outline-secondary">TikTok</a>
+                        <a href="#" class="btn btn-outline-secondary">YouTube</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h6 class="text-uppercase text-muted small fw-semibold mb-1">Newsletter</h6>
+                    <p class="fw-semibold mb-1">Recibe lanzamientos exclusivos y promociones de primera línea.</p>
+                    <p class="text-muted small mb-3">Sin spam. Solo lo mejor de Velocity Run.</p>
+                    <div class="d-flex flex-column flex-sm-row gap-2">
+                        <label for="footerEmail" class="visually-hidden">Correo electrónico</label>
+                        <input id="footerEmail" type="email" class="form-control" placeholder="tu@correo.com">
+                        <button class="btn btn-dark px-4">Suscribirme</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center border-top mt-5 pt-4">
+                <p class="text-muted small mb-0">© 2025 Velocity Run. Todos los derechos reservados.</p>
+                <p class="text-muted small mb-0">Hecho para corredores.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
